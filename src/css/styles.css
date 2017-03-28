@@ -1,0 +1,118 @@
+/* line 1, sass/styles.sass */
+html,
+body {
+  margin: 0;
+}
+
+/* line 5, sass/styles.sass */
+body,
+div,
+html {
+  height: 100%;
+}
+
+/* line 11, sass/styles.sass */
+header {
+  background-color: #f1e5e1;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  font-size: 1.8vw;
+  border-bottom: 2px solid #000;
+}
+/* line 18, sass/styles.sass */
+header ul {
+  text-align: center;
+}
+/* line 20, sass/styles.sass */
+header ul li {
+  display: inline;
+  margin-right: 2rem;
+}
+
+/* line 24, sass/styles.sass */
+h1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* line 29, sass/styles.sass */
+h2 {
+  text-align: center;
+}
+
+/* line 32, sass/styles.sass */
+h3 {
+  color: #CCCCCC;
+}
+
+/* line 35, sass/styles.sass */
+iframe {
+  max-width: 750px;
+}
+
+/* line 38, sass/styles.sass */
+body#the-body {
+  border: none !important;
+}
+
+/* line 41, sass/styles.sass */
+.wrapper-about {
+  max-width: 45vw;
+  margin: 0 auto;
+}
+/* line 45, sass/styles.sass */
+.wrapper-about p {
+  line-height: 36px;
+  font-size: 22px;
+}
+
+/* line 49, sass/styles.sass */
+.panel {
+  height: 100%;
+  width: 100%;
+  padding-top: 25vh;
+}
+
+/* line 54, sass/styles.sass */
+.panel.green {
+  margin-bottom: 400px;
+}
+
+/* line 57, sass/styles.sass */
+.blue {
+  background-color: #ebebec;
+}
+
+/* line 60, sass/styles.sass */
+.turqoise {
+  background-color: #f5c7c7;
+  text-align: center;
+}
+
+/* line 64, sass/styles.sass */
+.green {
+  background-color: #000;
+  color: #fff;
+}
+
+/* line 68, sass/styles.sass */
+.bordeaux {
+  background-color: #fff;
+  color: #000;
+}
+
+/* line 72, sass/styles.sass */
+.wd {
+  color: #e46387;
+}
+
+/* line 75, sass/styles.sass */
+.empty {
+  text-align: center;
+}
+/* line 77, sass/styles.sass */
+.empty h1 {
+  font-size: 10vw;
+}
